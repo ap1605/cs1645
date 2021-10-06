@@ -98,7 +98,7 @@ int main() {
 
 #ifdef TEST_RESULTS
     verifyMatrixSum(pixels);
-//    printMandelBrot(pixels);
+    //printMandelBrot(pixels);
 #endif
     return 0;
 }
