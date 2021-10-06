@@ -61,14 +61,14 @@ void *Pthread_trap(void *threadid){
 
     // barrier
     pthread_mutex_lock(&mutex_p); 
-    /*counter++;
+    counter++;
     if(counter == NUM_THREADS){
         counter = 0;
         pthread_cond_broadcast(&cond_var);
     }
     else{
         while(pthread_cond_wait(&cond_var, &mutex_p) != 0);
-    }*/
+    }
     area += my_area;
     pthread_mutex_unlock(&mutex_p);
 
